@@ -25,7 +25,8 @@ public:
     int minPathCost(vector<vector<int>>& grid, vector<vector<int>>& moveCost) {
         int n = grid.size();
         int m = grid[0].size();
-        vector<vector<int>> dp(n, vector<int>(m, 1e9));
+        // vector<vector<int>> dp(n, vector<int>(m, 1e9));
+        vector<int> after(m, 1e9);
         int ans = 1e9;
         // for(int col = 0; col < m; col++)
         // {
@@ -33,25 +34,27 @@ public:
         // }
         for(int col = 0; col < m; col++)
         {
-            dp[n - 1][col] = grid[n - 1][col];
+            after[col] = grid[n - 1][col];
         }
 
         for(int row = n - 2; row >= 0; row--)
         {
+            vector<int> curr(m, 1e9);
             for(int col = 0; col < m; col++)
             {
                 int val = grid[row][col];
                 for(int i = 0; i < m; i++)
                 {
                     int cost = moveCost[val][i];
-                    dp[row][col] = min(dp[row][col], val + cost + dp[row + 1][i]);
+                    curr[col] = min(curr[col], val + cost + after[i]);
                 }
             }
+            after = curr;
         }
 
         for(int col = 0; col < m; col++)
         {
-            ans = min(ans, dp[0][col]);
+            ans = min(ans, after[col]);
         }
 
         return ans;

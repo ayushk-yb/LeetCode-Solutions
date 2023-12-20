@@ -22,11 +22,32 @@ public:
         return dp[idx][k] = min(take, not_take);
     }
 
-    int coinChange(vector<int>& coins, int amount) {
-        int n = coins.size();
-        vector<vector<int>> dp(n, vector<int>(amount + 1, -1));
+    int coinChange(vector<int>& arr, int x) {
+        int n = arr.size();
+        vector<int> prev(x + 1, 1e8);
 
-        int res = solve(n - 1, amount, coins, dp);
-        return (res == 1000000000) ? -1 : res;
+        for(int i = 0; i <= x; i++)
+        {
+            if(i % arr[0] == 0)
+                prev[i] = i / arr[0];
+        }
+
+        for(int i = 1; i < n; i++)
+        {
+            vector<int> curr(x + 1, 1e8);
+            for(int tar = 0; tar <= x; tar++)
+            {
+                int not_take = prev[tar];
+                int take = 1e8;
+                if(tar >= arr[i])
+                    take = 1 + curr[tar - arr[i]];
+                
+                curr[tar] = min(take, not_take);
+            }
+            prev = curr;
+        }
+
+        int res = prev[x];
+        return (res == 1e8) ? -1 : res;
     }
 };

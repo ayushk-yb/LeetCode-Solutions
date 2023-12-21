@@ -5,19 +5,23 @@ public:
         vector<int> prev(l2 + 1, 0);
         for(int i = 1; i <= l1; i++)
         {
-            vector<int> curr(l2 + 1, 0);
+            // vector<int> curr(l2 + 1, 0);
+            int last = 0;
             for(int j = 1; j <= l2; j++)
             {
+                int temp = prev[j];
                 if(text1[i - 1] == text2[j - 1])
                 {
-                    curr[j] = 1 + prev[j - 1];
+                    prev[j] = 1 + last;
                 }
                 else
                 {
-                   curr[j] = max(curr[j - 1], prev[j]);
+                   prev[j] = max(prev[j - 1], prev[j]);
                 }
+
+                last = temp;
             }
-            prev = curr;
+            // prev = curr;
         }
         // return solve(l1 - 1, l2 - 1, text1, text2, dp);
         return prev[l2];

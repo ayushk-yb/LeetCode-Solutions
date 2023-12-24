@@ -13,7 +13,7 @@ public:
         for (int j = 0; j <= m; j++) {
             dp[j] = j;
         }
-
+        //we require both prev[0] and curr[0] and hence the two lines after the first loop
         for (int i = 1; i <= n; i++) {
             int prev = dp[0];
             dp[0] = i;
@@ -22,7 +22,7 @@ public:
                 if (str1[i - 1] == str2[j - 1]) {
                     dp[j] = prev;
                 } else {
-                    dp[j] = 1 + min(prev, min(dp[j - 1], temp));
+                    dp[j] = 1 + min(temp, min(dp[j - 1], prev));
                 }
                 prev = temp;
             }

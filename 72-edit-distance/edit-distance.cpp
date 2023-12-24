@@ -4,13 +4,13 @@ public:
         int n = str1.size(), m = str2.size();
         // vector<vector<int>> dp(n + 1, (vector<int>(m + 1, -1)));
         vector<int> prev(m + 1, -1);
+        vector<int> curr(m + 1, -1);
         for(int j = 0; j <= m; j++)
         {
             prev[j] = j;
         }
         for(int i = 1; i <= n; i++)
         {
-            vector<int> curr(m + 1, -1);
             curr[0] = i;
             for(int j = 1; j <= m; j++)
             {

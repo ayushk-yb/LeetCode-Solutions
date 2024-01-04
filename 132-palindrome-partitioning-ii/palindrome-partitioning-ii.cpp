@@ -2,13 +2,15 @@ class Solution {
 public:
     bool isPalindrome(int i, int j, string &s)
     {
-        if(i >= j)
-            return true;
-        
-        if(s[i] != s[j])
-            return false;
-        
-        return isPalindrome(i + 1, j - 1, s);
+        while(i <= j)
+        {
+            if(s[i] != s[j])
+                return false;
+            i++;
+            j--;
+        }
+
+        return true;
     }
     int solve(int i, int n, string &s, vector<int> &dp)
     {

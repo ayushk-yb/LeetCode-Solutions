@@ -1,41 +1,47 @@
 class Solution {
 public:
-    void solve(int i, int j, vector<vector<int>> &mat, vector<vector<bool>> &vis)
-    {
-        int n = mat.size();
-        int m = mat[0].size();
-        vis[i][j] = true;
-        for(int x = 0; x < n; x++)
-        {
-            if(mat[x][j] != 0)
-            {
-                mat[x][j] = 0;
-                vis[x][j] = true;
-            }
-
-        }
-        for(int x = 0; x < m; x++)
-        {
-            if(mat[i][x] != 0)
-            {
-                mat[i][x] = 0;
-                vis[i][x] = true;
-            }
-
-        }
-        
-    }
     void setZeroes(vector<vector<int>>& mat) {
         int n = mat.size();
         int m = mat[0].size();
-        vector<vector<bool>> vis(n, vector<bool>(m, false));
+        int col0 = 1;
         for(int i = 0; i < n; i++)
+        {
+            if(mat[i][0] == 0)
+                col0 = 0;
+            for(int j = 1; j < m; j++)
+            {
+                if(mat[i][j] == 0)
+                {
+                    mat[0][j] = 0;
+                    mat[i][0] = 0;
+                }
+            }
+        }
+
+        for(int i = 1; i < n; i++)
+        {
+            for(int j = 1; j < m; j++)
+            {
+                if(mat[i][j] != 0)
+                {
+                    if(mat[i][0] == 0 || mat[0][j] == 0)
+                        mat[i][j] = 0;
+                }
+            }
+        }
+        if(mat[0][0] == 0)
         {
             for(int j = 0; j < m; j++)
             {
-                if(mat[i][j] == 0 && !vis[i][j])
-                    solve(i, j, mat, vis);
+                mat[0][j] = 0;
             }
-        }        
+        }
+        if(col0 == 0)
+        {
+            for(int i = 0; i < n; i++)
+            {
+                mat[i][0] = 0;
+            }
+        }
     }
 };

@@ -4,8 +4,10 @@ public:
         int n = nums.size();
         if(n == 1)
             return nums;
-        int count1 = 0, count2 = 0;
-        int ele1 = -1, ele2 = -1;
+        int count1 = 0;
+        int count2 = 0;
+        int ele1 = -1;
+        int ele2 = -1;
         for(int i = 0; i < n; i++)
         {
             if(nums[i] == ele1)

@@ -39,6 +39,8 @@ public:
     ListNode* rotateRight(ListNode* head, int k) {
         if(!head)
             return head;
+        if(k == 0)
+            return head;
         int n = countNodes(head);
         k = k % n;
         ListNode* temp = head;

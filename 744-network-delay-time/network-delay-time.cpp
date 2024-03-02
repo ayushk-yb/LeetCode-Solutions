@@ -1,28 +1,40 @@
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
-        vector<int> minTime(n, 1e8);
-        minTime[k - 1] = 0;
-        for(int i = 0; i < n; i++)
-        {
-            for(auto it : times)
-            {
-                int src = it[0] - 1;
-                int target = it[1] - 1;
-                int time = it[2];
+        vector<vector<pair<int, int>>> graph(n + 1);
+        for (const auto& edge : times) {
+            int u = edge[0], v = edge[1], w = edge[2];
+            graph[u].push_back({v, w});
+        }
+        
+        vector<int> minTime(n + 1, INT_MAX);
+        minTime[k] = 0;
 
-                if(minTime[src] != 1e8 && minTime[src] + time < minTime[target])
-                {
-                    minTime[target] = minTime[src] + time;
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+        pq.push({0, k});
+
+        while (!pq.empty()) {
+            int u = pq.top().second;
+            int time = pq.top().first;
+            pq.pop();
+
+            if (time > minTime[u]) continue;
+
+            for (auto neighbor : graph[u]) {
+                int v = neighbor.first;
+                int w = neighbor.second;
+                if (minTime[u] + w < minTime[v]) {
+                    minTime[v] = minTime[u] + w;
+                    pq.push({minTime[v], v});
                 }
             }
         }
+
         int ans = 0;
-        for(int i = 0; i < n; i++)
-        {
+        for (int i = 1; i <= n; ++i) {
             ans = max(ans, minTime[i]);
         }
 
-        return (ans == 1e8) ? -1 : ans;
+        return (ans == INT_MAX) ? -1 : ans;
     }
 };

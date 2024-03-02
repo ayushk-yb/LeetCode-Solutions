@@ -20,7 +20,7 @@ public:
 
             if (time > minTime[u]) continue;
 
-            for (auto neighbor : graph[u]) {
+            for (const auto& neighbor : graph[u]) {
                 int v = neighbor.first;
                 int w = neighbor.second;
                 if (minTime[u] + w < minTime[v]) {

@@ -1,49 +1,48 @@
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
+        int countOne = 0, countTwo = 0;
+        int candidateOne = -1, candidateTwo = -1;
         int n = nums.size();
-        if(n == 1)
-            return nums;
-        int count1 = 0;
-        int count2 = 0;
-        int ele1 = -1;
-        int ele2 = -1;
-        for(int i = 0; i < n; i++)
-        {
-            if(nums[i] == ele1)
-                count1++;
-            else if(nums[i] == ele2)
-                count2++;
-            else if(count1 == 0)
-            {
-                ele1 = nums[i];
-                count1++;
+        for(int i = 0; i < n; i++){
+            if(candidateOne == nums[i]){
+                countOne++;
             }
-            else if(count2 == 0)
-            {
-                ele2 = nums[i];
-                count2++;
+            else if(candidateTwo == nums[i]){
+                countTwo++;
             }
-            else
-            {
-                count1--;
-                count2--;
+            else if(countOne == 0){
+                countOne++;
+                candidateOne = nums[i];
+            }
+            else if(countTwo == 0){
+                countTwo++;
+                candidateTwo = nums[i];
+            }
+            else{
+                countOne--;
+                countTwo--;
             }
         }
-        count1 = 0, count2 = 0;
-        for(int i = 0; i < n; i++)
-        {
-            if(nums[i] == ele1)
-                count1++;
-            else if(nums[i] == ele2)
-                count2++;
+
+        countOne = 0, countTwo = 0;
+        for(int i = 0; i < n; i++){
+            if(nums[i] == candidateOne){
+                countOne++;
+            }
+            else if(nums[i] == candidateTwo){
+                countTwo++;
+            }
         }
+
         vector<int> result;
-        if(count1 > n / 3)
-            result.push_back(ele1);
-        if(count2 > n / 3)
-            result.push_back(ele2);
-        
+        if(countOne > n / 3){
+            result.push_back(candidateOne);
+        }
+        if(countTwo > n / 3){
+            result.push_back(candidateTwo);
+        }
+
         return result;
     }
 };

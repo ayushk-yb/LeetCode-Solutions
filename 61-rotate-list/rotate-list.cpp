@@ -10,49 +10,36 @@
  */
 class Solution {
 public:
-    int countNodes(ListNode* head)
-    {
-        int count = 0;
-        ListNode* temp = head;
-        while(temp)
-        {
-            count++;
-            temp = temp->next;
-        }
-
-        return count;
-    }
-
-    ListNode* rotateHelper(ListNode* head)
-    {
-        ListNode* temp = head;
-        while(temp->next->next)
-        {
-            temp = temp->next;
-        }
-        ListNode* dummy = temp->next;
-        temp->next = NULL;
-
-        return dummy;
-    }
-
     ListNode* rotateRight(ListNode* head, int k) {
-        if(!head)
+        if(!head || k == 0){
             return head;
-
-        int n = countNodes(head);
-        k = k % n;
-        if(k == 0)
-            return head;
-        ListNode* temp = head;
-        while(k > 0)
-        {
-            ListNode* newHead = rotateHelper(temp);
-            newHead->next = temp;
-            temp = newHead;
-            k--;
         }
-        return temp;
+        ListNode* slow = head;
+        ListNode* fast = head;
+        int n = 0;
+        for(int i = 0; i < k; i++){
+            fast = fast->next;
+            n++;
+            if(fast == NULL){
+                k = k % n;
+                if(k == 0){
+                    return head;
+                }
+                fast = head;
+                for(int j = 0; j < k; j++){
+                    fast = fast->next;
+                }
+                break;
+            }
+        }
 
+        while(fast->next){
+            slow = slow->next;
+            fast = fast->next;
+        }
+        ListNode* nextNode = slow->next;
+        slow->next = NULL;
+        fast->next = head;
+        return nextNode;
     }
 };

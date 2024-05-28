@@ -4,19 +4,21 @@ public:
         int n = nums.size();
         if (n == 0) return 0;
         
-        vector<vector<int>> dp(n + 1, vector<int>(n + 1, 0));
+        vector<int> next(n + 1, 0);
 
         for (int i = n - 1; i >= 0; i--) {
+            vector<int> curr(n + 1, 0);
             for (int prev = i - 1; prev >= -1; prev--) {
                 int pick = 0;
                 if (prev == -1 || nums[i] > nums[prev]) {
-                    pick = 1 + dp[i + 1][i + 1];
+                    pick = 1 + next[i + 1];
                 }
-                int not_pick = dp[i + 1][prev + 1];
-                dp[i][prev + 1] = max(pick, not_pick);
+                int not_pick = next[prev + 1];
+                curr[prev + 1] = max(pick, not_pick);
             }
+            next = curr;
         }
 
-        return dp[0][0];
+        return next[0];
     }
 };

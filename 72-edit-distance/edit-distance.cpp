@@ -1,33 +1,36 @@
 class Solution {
 public:
-    int minDistance(string str1, string str2) {
-        int n = str1.size(), m = str2.size();
-
-        // if (n < m) {
-        //     swap(str1, str2);
-        //     swap(n, m);
-        // }
-
-        vector<int> dp(m + 1, -1);
-
-        for (int j = 0; j <= m; j++) {
-            dp[j] = j;
+    int solve(int i, int j, string &s, string &t, vector<vector<int>> &dp){
+        if(i < 0){
+            return j + 1;
         }
-        //we require both prev[0] and curr[0] and hence the two lines after the first loop
-        for (int i = 1; i <= n; i++) {
-            int prev = dp[0];
-            dp[0] = i;
-            for (int j = 1; j <= m; j++) {
-                int temp = dp[j];
-                if (str1[i - 1] == str2[j - 1]) {
-                    dp[j] = prev;
-                } else {
-                    dp[j] = 1 + min(temp, min(dp[j - 1], prev));
-                }
-                prev = temp;
-            }
+        if(j < 0){
+            return i + 1;
         }
 
-        return dp[m];
+        if(dp[i][j] != -1){
+            return dp[i][j];
+        }
+
+        if(s[i] == t[j]){
+            return dp[i][j] = solve(i - 1, j - 1, s, t, dp);
+        }
+        else{
+            int replace = solve(i - 1, j - 1, s, t, dp);
+            int insert = solve(i, j - 1, s, t, dp);
+            int remove = solve(i - 1, j, s, t, dp);
+
+            return dp[i][j] = 1 + min(replace, min(insert, remove));
+        }
+    }
+
+    int minDistance(string word1, string word2) {
+        int n1 = word1.size();
+        int n2 = word2.size();
+        if(n1 == 0 && n2 == 0){
+            return 0;
+        }
+        vector<vector<int>> dp(n1 + 1, vector<int>(n2 + 1, -1));
+        return solve(n1 - 1, n2 - 1, word1, word2, dp);
     }
 };

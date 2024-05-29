@@ -1,56 +1,26 @@
-class Solution
-{
-    public:
-        int solve(vector<vector < int>> &grid, int i, int j, vector< vector< int>> &dp)
-        {
-            if (i == 0 && j == 0)
-                return grid[i][j];
-
-            if (i < 0 || j < 0)
-                return 1e9;
-
-            if (dp[i][j] != -1)
-                return dp[i][j];
-
-            int up = grid[i][j] + solve(grid, i - 1, j, dp);
-            int left = grid[i][j] + solve(grid, i, j - 1, dp);
-
-            return dp[i][j] = min(up, left);
+class Solution {
+public:
+    int solve(int i, int j, vector<vector<int>> &grid,vector<vector<int>> &dp){
+        if(i == 0 && j == 0){
+            return grid[0][0];
+        }
+        if(i < 0 || j < 0){
+            return 1e9;
         }
 
-    int minPathSum(vector<vector < int>> &grid)
-    {
-        int n = grid.size();
-        int m = grid[0].size();
-        vector<int> prev(m, 0);
-
-        for (int i = 0; i < n; i++)
-        {
-            vector<int> temp(m, 0);
-            for (int j = 0; j < m; j++)
-            {
-                if (i == 0 && j == 0)
-                {
-                    temp[j] = grid[0][0];
-                }
-                else
-                {
-                    int up = 1e9;
-                    int left = 1e9;
-                    if (i - 1 >= 0)
-                    {
-                        up = grid[i][j] + prev[j];
-                    }
-                    if (j - 1 >= 0)
-                    {
-                        left = grid[i][j] + temp[j - 1];
-                    }
-                    temp[j] = min(up, left);
-                }
-            }
-            prev = temp;
+        if(dp[i][j] != -1){
+            return dp[i][j];
         }
 
-        return prev[m - 1];
+        int up = grid[i][j] + solve(i- 1, j, grid, dp);
+        int left = grid[i][j] + solve(i, j - 1, grid, dp);
+
+        return dp[i][j] = min(up, left);
+    }
+    int minPathSum(vector<vector<int>>& grid) {
+        int m = grid.size();
+        int n = grid[0].size();
+        vector<vector<int>> dp(m + 1, vector<int>(n + 1, -1));
+        return solve(m - 1, n - 1, grid, dp);
     }
 };

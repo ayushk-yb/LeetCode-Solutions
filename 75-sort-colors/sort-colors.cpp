@@ -1,19 +1,22 @@
 class Solution {
 public:
     void sortColors(vector<int>& nums) {
-        vector<int> freqMap(3, 0);
         int n = nums.size();
-        for(int i = 0; i < n; i++){
-            freqMap[nums[i]]++;
-        }
-        int i = 0, currNum = 0;
-        while(i < n){
-            while(freqMap[currNum] == 0){
-                currNum++;
+
+        int i = 0, j = 0, k = n - 1;
+        while(j <= k){
+            if(nums[j] == 0){
+                swap(nums[i], nums[j]);
+                i++;
+                j++;
             }
-            nums[i] = currNum;
-            freqMap[currNum]--;
-            i++;
+            else if(nums[j] == 1){
+                j++;
+            }
+            else{
+                swap(nums[j], nums[k]);
+                k--;
+            }
         }
     }
 };

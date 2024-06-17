@@ -1,53 +1,31 @@
 class Solution {
 public:
-    int solve(int idx, int k, vector<int> &arr, vector<vector<int>> &dp)
-    {
-        if(idx == 0)
-        {
-            if(k % arr[idx] == 0)
-                return k / arr[idx];
-            
+    int solve(int i, int n, vector<int> &coins, int amount, vector<vector<int>> &dp){
+        if(i == n - 1){
+            if(amount % coins[i] == 0){
+                return amount / coins[i];
+            }
+
             return 1e9;
         }
         
+        if(dp[i][amount] != -1){
+            return dp[i][amount];
+        }
 
-        if (dp[idx][k] != -1)
-            return dp[idx][k];
-
-        int not_take = solve(idx - 1, k, arr, dp);
         int take = 1e9;
-        if(arr[idx] <= k)
-            take = 1 + solve(idx, k - arr[idx], arr, dp);
+        if(amount >= coins[i]){
+            take = 1 + solve(i, n, coins, amount - coins[i], dp);
+        }
+        int notTake = solve(i + 1, n, coins, amount, dp);
 
-        return dp[idx][k] = min(take, not_take);
+        return dp[i][amount] = min(take, notTake);
     }
+    int coinChange(vector<int>& coins, int amount) {
+        int n = coins.size();
+        vector<vector<int>> dp(n, vector<int>(amount + 1, -1));
+        int res = solve(0, n, coins, amount, dp);
 
-    int coinChange(vector<int>& arr, int x) {
-        int n = arr.size();
-        vector<int> prev(x + 1, 1e8);
-
-        for(int i = 0; i <= x; i++)
-        {
-            if(i % arr[0] == 0)
-                prev[i] = i / arr[0];
-        }
-
-        for(int i = 1; i < n; i++)
-        {
-            vector<int> curr(x + 1, 1e8);
-            for(int tar = 0; tar <= x; tar++)
-            {
-                int not_take = prev[tar];
-                int take = 1e8;
-                if(tar >= arr[i])
-                    take = 1 + curr[tar - arr[i]];
-                
-                curr[tar] = min(take, not_take);
-            }
-            prev = curr;
-        }
-
-        int res = prev[x];
-        return (res == 1e8) ? -1 : res;
+        return (res == 1e9) ? -1 : res;
     }
 };

@@ -29,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0098-validate-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0230-kth-smallest-element-in-a-bst) |
+| [2665-minimum-time-to-repair-cars](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2665-minimum-time-to-repair-cars) |
 ## Binary Tree
 |  |
 | ------- |
@@ -55,4 +56,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+## Array
+|  |
+| ------- |
+| [2665-minimum-time-to-repair-cars](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2665-minimum-time-to-repair-cars) |
 <!---LeetCode Topics End-->

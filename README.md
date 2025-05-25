@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
 |  |
@@ -27,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Search Tree
 |  |
@@ -46,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -82,4 +85,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->

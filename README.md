@@ -81,6 +81,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0135-candy) |
+| [0152-maximum-product-subarray](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
 | [0213-house-robber-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0213-house-robber-ii) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2665-minimum-time-to-repair-cars](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2665-minimum-time-to-repair-cars) |
@@ -123,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0091-decode-ways) |
+| [0152-maximum-product-subarray](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
 | [0213-house-robber-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0213-house-robber-ii) |
 | [1250-longest-common-subsequence](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
 ## Memoization

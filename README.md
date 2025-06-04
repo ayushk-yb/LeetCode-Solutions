@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0139-word-break](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0139-word-break) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 ## Sorting
@@ -81,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0135-candy) |
+| [0139-word-break](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
 | [0213-house-robber-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0213-house-robber-ii) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -90,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0091-decode-ways](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0091-decode-ways) |
+| [0139-word-break](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0139-word-break) |
 | [1250-longest-common-subsequence](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 ## Greedy
@@ -124,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0091-decode-ways) |
+| [0139-word-break](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
 | [0213-house-robber-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0213-house-robber-ii) |
 | [1250-longest-common-subsequence](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
@@ -131,8 +135,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0139-word-break) |
 ## Two Pointers
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->

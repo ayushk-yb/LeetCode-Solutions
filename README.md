@@ -72,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0139-word-break) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Sorting
 |  |
 | ------- |
@@ -95,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0139-word-break) |
 | [1250-longest-common-subsequence](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Greedy
 |  |
@@ -103,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0055-jump-game](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0135-candy) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Counting
 |  |
 | ------- |
@@ -150,4 +153,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
+## Stack
+|  |
+| ------- |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 <!---LeetCode Topics End-->

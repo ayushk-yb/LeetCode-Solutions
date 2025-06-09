@@ -78,12 +78,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0015-3sum](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0016-3sum-closest) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Array
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0016-3sum-closest) |
 | [0045-jump-game-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0135-candy](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0135-candy) |
@@ -154,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0016-3sum-closest) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 ## Trie
 |  |

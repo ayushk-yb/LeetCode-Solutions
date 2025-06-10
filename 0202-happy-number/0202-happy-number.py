@@ -4,7 +4,6 @@ class Solution(object):
         :type n: int
         :rtype: bool
         """
-        seenSet = set()
 
         def happySum(num):
             curr_sum = 0
@@ -19,9 +18,15 @@ class Solution(object):
         if n == 1:
             return True
         
-        while n != 1 and n not in seenSet:
-            seenSet.add(n)
-            n = happySum(n)
+        slow = happySum(n)
+        fast = happySum(happySum(n))
+
+        while slow != fast:
+            if fast == 1:
+                return True
+            
+            slow = happySum(slow)
+            fast = happySum(happySum(fast))
         
-        return True if n == 1 else False
+        return slow == 1
 

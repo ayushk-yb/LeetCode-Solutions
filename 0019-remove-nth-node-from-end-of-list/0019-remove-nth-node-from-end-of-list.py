@@ -10,22 +10,18 @@ class Solution(object):
         :type n: int
         :rtype: Optional[ListNode]
         """
-        size = 0
-        curr = head
-        while curr:
-            curr = curr.next
-            size += 1
-
-        curr = head
-        if size == n:
-            return curr.next
-
-        n = size - n
-        while n > 1:
-            curr = curr.next
-            n -= 1
+        slow, fast = head, head
+        for _ in range(n):
+            fast = fast.next
         
-        curr.next = curr.next.next
+        if not fast:
+            return head.next
+        
+        while fast.next:
+            slow = slow.next
+            fast = fast.next
+        
+        slow.next = slow.next.next
 
         return head
         

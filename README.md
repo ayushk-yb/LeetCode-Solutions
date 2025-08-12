@@ -171,6 +171,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0152-maximum-product-subarray](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
 | [0213-house-robber-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0213-house-robber-ii) |
 | [1250-longest-common-subsequence](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
+| [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 ## Memoization
 |  |
 | ------- |

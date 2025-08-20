@@ -108,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0349-intersection-of-two-arrays](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0917-boats-to-save-people](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0917-boats-to-save-people) |
 | [1019-squares-of-a-sorted-array](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1019-squares-of-a-sorted-array) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
@@ -176,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0152-maximum-product-subarray](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0152-maximum-product-subarray) |
 | [0213-house-robber-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0213-house-robber-ii) |
 | [1250-longest-common-subsequence](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 ## Memoization
 |  |
@@ -247,4 +249,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0231-power-of-two](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0231-power-of-two) |
 | [0326-power-of-three](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0342-power-of-four) |
+## Matrix
+|  |
+| ------- |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
 <!---LeetCode Topics End-->

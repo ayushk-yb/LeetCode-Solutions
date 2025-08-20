@@ -113,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2665-minimum-time-to-repair-cars](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2665-minimum-time-to-repair-cars) |
+| [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 ## String
 |  |
 | ------- |
@@ -140,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 ## Counting
 |  |
 | ------- |
@@ -237,6 +239,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [3743-reschedule-meetings-for-maximum-free-time-i](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3743-reschedule-meetings-for-maximum-free-time-i) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Bit Manipulation
 |  |

@@ -72,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0037-sudoku-solver) |
 | [0139-word-break](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0202-happy-number](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0202-happy-number) |
 | [0349-intersection-of-two-arrays](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0349-intersection-of-two-arrays) |
@@ -97,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0018-4sum) |
+| [0037-sudoku-solver](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0037-sudoku-solver) |
 | [0045-jump-game-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0055-jump-game) |
 | [0118-pascals-triangle](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0118-pascals-triangle) |
@@ -259,5 +261,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0037-sudoku-solver) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1402-count-square-submatrices-with-all-ones) |
+## Backtracking
+|  |
+| ------- |
+| [0037-sudoku-solver](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0037-sudoku-solver) |
 <!---LeetCode Topics End-->

@@ -218,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Enumeration
 |  |
 | ------- |
+| [2837-minimum-operations-to-make-the-integer-zero](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
 ## Stack
@@ -255,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0231-power-of-two](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0342-power-of-four) |
+| [2837-minimum-operations-to-make-the-integer-zero](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 ## Recursion
 |  |
 | ------- |
@@ -270,4 +272,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0037-sudoku-solver) |
+## Brainteaser
+|  |
+| ------- |
+| [2837-minimum-operations-to-make-the-integer-zero](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 <!---LeetCode Topics End-->

@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0018-4sum) |
+| [0056-merge-intervals](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0056-merge-intervals) |
 | [0349-intersection-of-two-arrays](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0349-intersection-of-two-arrays) |
 | [0917-boats-to-save-people](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0917-boats-to-save-people) |
 | [1019-squares-of-a-sorted-array](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1019-squares-of-a-sorted-array) |
@@ -101,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0037-sudoku-solver](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0037-sudoku-solver) |
 | [0045-jump-game-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0055-jump-game) |
+| [0056-merge-intervals](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0056-merge-intervals) |
 | [0118-pascals-triangle](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0118-pascals-triangle) |
 | [0135-candy](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0135-candy) |
 | [0139-word-break](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0139-word-break) |

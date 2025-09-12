@@ -140,6 +140,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2346-largest-3-same-digit-number-in-string](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2346-largest-3-same-digit-number-in-string) |
 | [2887-sort-vowels-in-a-string](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2887-sort-vowels-in-a-string) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3462-vowels-game-in-a-string](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3462-vowels-game-in-a-string) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |
@@ -184,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1448-maximum-69-number](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1448-maximum-69-number) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3172-divisible-and-non-divisible-sums-difference) |
+| [3462-vowels-game-in-a-string](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3462-vowels-game-in-a-string) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 ## Dynamic Programming
 |  |
@@ -298,6 +300,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
+| [3462-vowels-game-in-a-string](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3462-vowels-game-in-a-string) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -311,4 +314,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
+## Game Theory
+|  |
+| ------- |
+| [3462-vowels-game-in-a-string](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3462-vowels-game-in-a-string) |
 <!---LeetCode Topics End-->

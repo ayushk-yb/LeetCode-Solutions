@@ -78,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0202-happy-number](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0202-happy-number) |
 | [0349-intersection-of-two-arrays](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0349-intersection-of-two-arrays) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
@@ -135,6 +136,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0091-decode-ways](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0091-decode-ways) |
 | [0139-word-break](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0139-word-break) |
 | [1250-longest-common-subsequence](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
+| [1264-maximum-number-of-words-you-can-type](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2346-largest-3-same-digit-number-in-string) |

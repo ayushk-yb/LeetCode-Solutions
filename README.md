@@ -134,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0065-valid-number](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0065-valid-number) |
+| [0067-add-binary](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0067-add-binary) |
 | [0091-decode-ways](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0091-decode-ways) |
 | [0139-word-break](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0139-word-break) |
 | [1250-longest-common-subsequence](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
@@ -178,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0067-add-binary) |
 | [0070-climbing-stairs](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0070-climbing-stairs) |
 | [0202-happy-number](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0202-happy-number) |
 | [0231-power-of-two](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0231-power-of-two) |
@@ -257,6 +259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0067-add-binary) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [3811-reverse-degree-of-a-string](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3811-reverse-degree-of-a-string) |
 ## Prefix Sum
@@ -280,6 +283,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0067-add-binary) |
 | [0231-power-of-two](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0231-power-of-two) |
 | [0342-power-of-four](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0342-power-of-four) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2837-minimum-operations-to-make-the-integer-zero) |

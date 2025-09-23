@@ -139,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0067-add-binary](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0067-add-binary) |
 | [0091-decode-ways](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0091-decode-ways) |
 | [0139-word-break](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0139-word-break) |
+| [0165-compare-version-numbers](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0165-compare-version-numbers) |
 | [1250-longest-common-subsequence](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -228,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0018-4sum](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0018-4sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0042-trapping-rain-water](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0165-compare-version-numbers](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0165-compare-version-numbers) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0202-happy-number](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0202-happy-number) |
 | [0349-intersection-of-two-arrays](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0349-intersection-of-two-arrays) |

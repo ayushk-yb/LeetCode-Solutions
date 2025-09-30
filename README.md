@@ -75,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0037-sudoku-solver](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0037-sudoku-solver) |
 | [0139-word-break](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0139-word-break) |
+| [0146-lru-cache](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0166-fraction-to-recurring-decimal](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [0202-happy-number](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0202-happy-number) |
 | [0349-intersection-of-two-arrays](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0349-intersection-of-two-arrays) |
@@ -279,6 +280,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0146-lru-cache](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0908-middle-of-the-linked-list](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0908-middle-of-the-linked-list) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 ## Sliding Window
@@ -338,10 +340,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [3678-design-task-manager](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3797-design-spreadsheet) |
 ## Ordered Set
 |  |
 | ------- |
 | [3678-design-task-manager](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3678-design-task-manager) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->

@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -70,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0226-invert-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 ## Hash Table
 |  |
 | ------- |
@@ -151,6 +153,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0166-fraction-to-recurring-decimal](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [1250-longest-common-subsequence](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1264-maximum-number-of-words-you-can-type) |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2346-largest-3-same-digit-number-in-string](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2346-largest-3-same-digit-number-in-string) |
@@ -260,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Enumeration
 |  |
 | ------- |
+| [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3761-maximum-difference-between-even-and-odd-frequency-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3761-maximum-difference-between-even-and-odd-frequency-ii) |

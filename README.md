@@ -156,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0166-fraction-to-recurring-decimal](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0166-fraction-to-recurring-decimal) |
 | [1250-longest-common-subsequence](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1250-longest-common-subsequence) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1264-maximum-number-of-words-you-can-type) |
+| [1636-number-of-substrings-with-only-1s](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2137-final-value-of-variable-after-performing-operations) |
@@ -212,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1448-maximum-69-number](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1448-maximum-69-number) |
+| [1636-number-of-substrings-with-only-1s](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1642-water-bottles) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3336-water-bottles-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3336-water-bottles-ii) |

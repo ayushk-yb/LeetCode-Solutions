@@ -124,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0213-house-robber-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0213-house-robber-ii) |
 | [0239-sliding-window-maximum](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0349-intersection-of-two-arrays](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0349-intersection-of-two-arrays) |
+| [0717-1-bit-and-2-bit-characters](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0917-boats-to-save-people](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0917-boats-to-save-people) |
 | [1019-squares-of-a-sorted-array](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1019-squares-of-a-sorted-array) |
 | [1036-rotting-oranges](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1036-rotting-oranges) |

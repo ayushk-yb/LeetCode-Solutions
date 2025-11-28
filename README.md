@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0572-subtree-of-another-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [2872-maximum-number-of-k-divisible-components](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2872-maximum-number-of-k-divisible-components) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -35,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0572-subtree-of-another-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/0572-subtree-of-another-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1747-lexicographically-smallest-string-after-applying-operations](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/1747-lexicographically-smallest-string-after-applying-operations) |
+| [2872-maximum-number-of-k-divisible-components](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2872-maximum-number-of-k-divisible-components) |
 ## Binary Search Tree
 |  |
 | ------- |

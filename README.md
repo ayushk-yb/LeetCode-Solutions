@@ -148,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2665-minimum-time-to-repair-cars](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2665-minimum-time-to-repair-cars) |
 | [3383-taking-maximum-energy-from-the-mystic-dungeon](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3383-taking-maximum-energy-from-the-mystic-dungeon) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
@@ -232,6 +233,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3336-water-bottles-ii](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3336-water-bottles-ii) |
 | [3462-vowels-game-in-a-string](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3462-vowels-game-in-a-string) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3623-count-number-of-trapezoids-i](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3623-count-number-of-trapezoids-i) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3676-smallest-number-with-all-set-bits) |
@@ -366,6 +368,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [3462-vowels-game-in-a-string](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3462-vowels-game-in-a-string) |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -401,4 +404,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3623-count-number-of-trapezoids-i](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3623-count-number-of-trapezoids-i) |
+## Combinatorics
+|  |
+| ------- |
+| [3577-count-the-number-of-computer-unlocking-permutations](https://github.com/ayush06092002/LeetCode-Solutions/tree/master/3577-count-the-number-of-computer-unlocking-permutations) |
 <!---LeetCode Topics End-->
